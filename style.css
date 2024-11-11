@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jockey+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jockey+One&family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Iceland&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jockey+One&family=Zen+Dots&display=swap');
+
+body {
+    font-family: "Iceland", sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    background-color: #ee8329;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+header h1 {
+    font-family: "Iceland", sans-serif;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+section {
+    background-color: #fff;
+    padding:20px;
+    margin-bottom:30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0,0, 0, 0.1);
+}
+
+section h2 {
+    font-family: "Iceland", sans-serif;
+    color: #333;
+    font-size: 35px;
+}
+section p {
+    font-family: "Zen Dots", sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.1);
+}
+
+section ul, section ol { 
+    margin-top: 0px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-family: "Audiowide", sans-serif;
+    background-color: #419eaf;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
